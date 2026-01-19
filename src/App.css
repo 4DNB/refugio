@@ -1,13 +1,17 @@
 .Main {
-    min-height: 62.5vh;
+    min-height: 50vh;
+    background-color: red;
+}
+
+.imgPerr {
+    height: 80vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
 .div1 {
-    height: 63vh;
-    background: url('https://images.pexels.com/photos/9455270/pexels-photo-9455270.jpeg');
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-position-y: 52%;
+    height: 6vh;
     margin: 0;
     padding: 0;
 }
@@ -20,17 +24,15 @@
     background: linear-gradient(90deg, rgb(240, 255, 251), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-top: 0;
-    margin-top: 3vh;
 }
 
 .hero-image {
     background-color: transparent;
-    position: relative;
-    top: 52vh;
-    transform: rotate(0.5turn);
     width: 100vw;
     height: 23vh;
+    position: relative;
+    transform: rotate(0.5turn);
+    bottom: 23vh;
     margin: 0;
     padding: 0;
 }
