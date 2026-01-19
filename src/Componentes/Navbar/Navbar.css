@@ -10,4 +10,15 @@ nav {
 nav div {
     width: 100%;
     font-size: 1vw;
+    
+}
+
+.MainLi1 {
+    display: flex;
+}
+
+.MainLi2 {
+    display: flex;
+    float: right;
+
 }
