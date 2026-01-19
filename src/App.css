@@ -1,28 +1,38 @@
-.Main {}
-
-.Main nav {
-    background-color: white;
-    box-shadow: black 0vw 0.5vw 0.5vw;
-    height: 7vh;
-    display: flex;
-    grid-column: auto auto;
+.Main {
+    min-height: 62.5vh;
 }
 
-.Main nav div {
-    width: 100%;
-    border: 1px solid red;
+.div1 {
+    height: 63vh;
+    background: url('https://images.pexels.com/photos/9455270/pexels-photo-9455270.jpeg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position-y: 52%;
+    margin: 0;
+    padding: 0;
 }
-
-.Main nav div li {}
 
 .Main h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 10vw;
     filter: drop-shadow(black 0.1vw 0.5vw 0.4vw);
-    background: linear-gradient(90deg, rgb(142, 247, 255), rgb(244, 255, 142));
+    background: linear-gradient(90deg, rgb(240, 255, 251), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 0;
+    margin-top: 3vh;
+}
+
+.hero-image {
+    background-color: transparent;
+    position: relative;
+    top: 52vh;
+    transform: rotate(0.5turn);
+    width: 100vw;
+    height: 23vh;
+    margin: 0;
+    padding: 0;
 }
 
 .MainLi1 {
@@ -30,11 +40,11 @@
 }
 
 .MainLi2 {
-    border: 1px solid red;
     display: flex;
-    float: right;    
+    float: right;
+
 }
 
-.MainLi2 ul{
-    
+.MainLi2 ul {
+    margin-right: 1.5vw;
 }

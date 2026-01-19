@@ -1,0 +1,13 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: black 0vw 0.5vw 0.5vw;
+    height: 7vh;
+    display: flex;
+    grid-column: 80% 20%;
+    font-weight: bold;
+}
+
+nav div {
+    width: 100%;
+    font-size: 1vw;
+}
